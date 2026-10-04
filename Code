@@ -1,0 +1,17 @@
+import numpy as np
+
+arr = np.array([[10, 20, 30],
+                [40, 50, 60],
+                [70, 80, 90]])
+
+print("Original Array:\n", arr)
+
+print("\nIndexing:", arr[1, 2])
+print("Negative Indexing:", arr[-1, -1])
+print("First Row:", arr[0])
+print("Second Column:", arr[:, 1])
+print("Slicing:\n", arr[0:2, 1:3])
+
+print("\nArray Iteration:")
+for row in arr:
+    print(row)
